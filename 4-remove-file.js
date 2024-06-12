@@ -3,3 +3,11 @@
  */
 
 const fs = require('fs');
+
+fs.unlink("borrame.txt", err => {
+    if (err) {
+        console.log("ERROR: ", err);
+    }
+
+    console.log("Fichero borrado");
+})
