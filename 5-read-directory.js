@@ -18,3 +18,9 @@ console.log(files);
         console.log("Archivos en el directorio: ", file);
     });
 });
+
+
+// alternativa Oscar //
+// for (f of files) {
+//     console.log(f);
+// }
